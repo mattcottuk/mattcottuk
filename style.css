@@ -13,8 +13,8 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #fafafe;
-    color: #373D3F;
+    background-color: #FF81C0;
+    color: #fcf679;
 }
 
 h1{
@@ -26,18 +26,18 @@ h1{
 }
 
 p{
-    color: #373D3F;
+    color: #fcf679;
     font-size: calc(14px + 2vmin);  
     font-weight: 300;
     white-space: nowrap;
     margin: 0vw;
     padding: 0vw;
     font-family: 'Courier New', monospace, monospace;
-    text-align: center;
+
 }
 
 a{
-    color: #373D3F;
+    color: #fcf679;
     font-size: calc(14px + 3.5vmin);
     font-weight: 200;
     white-space: nowrap;
@@ -50,7 +50,7 @@ a{
 }
 
 a:hover{
-    color: #c0c0c0; 
+    color: #3ffefe; 
     -o-transition: color.5s ease;
     -ms-transition: color.5s ease;
     -moz-transition: color.5s ease;
@@ -84,10 +84,10 @@ i{
 }
 
 ::selection {
-    color: #fafafe; 
-    background: #373D3F;
+    color: #FF81C0; 
+    background: #3ffefe;
 }
 ::-moz-selection {
-    background: #373D3F;
-    color: #fafafe; 
+    background: #3ffefe;
+    color: #FF81C0; 
 }
